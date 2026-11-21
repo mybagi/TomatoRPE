@@ -1,8 +1,8 @@
 # TomatoRPE
 
-TomatoRPE combines drought transcriptomics, substrate-guided docking, and molecular dynamics to examine tomato ribulose-5-phosphate 3-epimerase. Use the notebook to reproduce study summaries and inspect simulation measurements.
+TomatoRPE combines drought transcriptomics, substrate-guided docking, and molecular dynamics to examine tomato ribulose-5-phosphate 3-epimerase. Use Colab to reproduce study summaries and inspect time series for 13 simulation systems.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24425383.svg)](https://doi.org/10.5281/zenodo.24425383) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mybagi/TomatoRPE/blob/main/notebooks/TomatoRPE_quickstart.ipynb) [Data and downloads](#data)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24425383.svg)](https://doi.org/10.5281/zenodo.24425383) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mybagi/TomatoRPE/blob/main/notebooks/TomatoRPE_quickstart.ipynb)
 
 ![Study workflow for tomato drought transcriptomics and ligand screening](assets/fig1.jpg)
 
@@ -14,38 +14,27 @@ TomatoRPE/
 ├── assets/
 ├── notebooks/TomatoRPE_quickstart.ipynb
 └── src/
+    ├── prepare_data.py
+    ├── reproduce.py
+    ├── download_trajectory.py
+    ├── verify_md_trajectory.py
+    └── requirements/
 ```
 
 ## Run locally
 
-### Install
-
-Use Python 3.11 or later.
+Use Python 3.11 or later. The preparation command downloads and checks the reference tables. The summary command reports root interaction counts, target rankings, docking statistics, and pocket occupancy.
 
 ```bash
 git clone https://github.com/mybagi/TomatoRPE.git
 cd TomatoRPE
-```
-
-### Prepare data
-
-The preparation command downloads the archive and verifies its checksum before extraction.
-
-```bash
 python src/prepare_data.py
-```
-
-### Reproduce the summaries
-
-This command reports root interaction counts, target rankings, docking results, and pocket occupancy.
-
-```bash
 python src/reproduce.py
 ```
 
 ### Verify a trajectory
 
-The example uses the first zinc-bound replicate of native D-ribulose 5-phosphate. The verifier uses the GROMACS run input and compressed trajectory files for the same system. [System identifiers](assets/systems.tsv)
+The example checks frame times and recalculates minimum heavy-atom distances to the fixed 31-residue pocket for the first replicate of native D-ribulose 5-phosphate with catalytic zinc. The output counts frames below 4 and 5 Å from 50 to 100 ns. [System identifiers](assets/systems.tsv)
 
 ```bash
 python -m pip install -r src/requirements/md.txt
@@ -55,14 +44,12 @@ python src/verify_md_trajectory.py --trajectory-dir trajectories --system native
 
 ## Data
 
-The [reference archive](https://github.com/mybagi/TomatoRPE/releases/download/reference-v1/tomatorpe-reference-data.zip) contains the docking tables, supplementary analyses, trajectory measurements, structural comparisons, and source dataset accessions. Extract the archive with the preparation command above to browse the tables by analysis.
+| Material | Access |
+| --- | --- |
+| Study tables, time series, and source accessions | [GitHub reference archive](https://github.com/mybagi/TomatoRPE/releases/download/reference-v1/tomatorpe-reference-data.zip) |
+| Original trajectories, starting structures, and GROMACS run inputs | [Zenodo record](https://doi.org/10.5281/zenodo.24425383) |
+| Original transcriptomics, docking, and simulation workflows | [Archived source and input notes](https://github.com/mybagi/TomatoRPE/blob/56c6c2f613b655ad1d47f82c42b9f31a4781a397/src/workflows/README.md) |
 
-The [Zenodo record](https://doi.org/10.5281/zenodo.24425383) provides the original trajectories, starting structures, and GROMACS run inputs.
+## Contact and citation
 
-## Method
-
-Drought response contrasts inform tomato gene prioritization. Substrate-guided docking places candidate ligands in the catalytic pocket. The molecular dynamics analysis measures minimum heavy-atom distances between each ligand or substrate and the fixed 31-residue pocket. Pocket occupancy is calculated separately at thresholds of 4 and 5 Å using saved frames from 50 to 100 ns. [Analysis workflows](src/workflows/README.md)
-
-## Contact
-
-[Open a GitHub issue](https://github.com/mybagi/TomatoRPE/issues) for questions about the code or contact [Mingyu Bian](https://github.com/mybagi) and [Yiquan Wang](https://github.com/wyqmath). [Software citation](assets/CITATION.cff)
+[Open a GitHub issue](https://github.com/mybagi/TomatoRPE/issues) for code questions. [Software citation](assets/CITATION.cff)
