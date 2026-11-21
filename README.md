@@ -1,6 +1,6 @@
 # TomatoRPE for drought-response analysis and ligand screening
 
-TomatoRPE prioritizes drought-responsive genes in tomato and evaluates natural products as candidate ligands for ribulose-5-phosphate 3-epimerase (RPE). It integrates root single-cell atlases with transcriptomic data from drought and *Serendipita indica* inoculation studies, then uses substrate-guided docking to select compounds for molecular dynamics simulations. Reproduce study summaries and inspect time series from 13 simulation systems in Colab, or use the Python scripts locally to verify published trajectories.
+TomatoRPE prioritizes drought-responsive genes in tomato and evaluates natural products as candidate ligands for ribulose-5-phosphate 3-epimerase (RPE). It integrates root single-cell atlases with transcriptomic data from drought and *Serendipita indica* inoculation studies, then screens compounds by substrate-guided docking and uses molecular dynamics to track the proximity of selected ligands to the RPE pocket. Use Colab to reproduce study summaries and inspect 13 simulation time series, or verify published trajectories with the local Python scripts.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24425383.svg)](https://doi.org/10.5281/zenodo.24425383) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mybagi/TomatoRPE/blob/main/notebooks/TomatoRPE_quickstart.ipynb)
 
