@@ -157,7 +157,7 @@ def verify_geo_workbook(workbook, tables):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", type=Path, default=Path(__file__).resolve().parent / "data", help="Directory of analysis tables")
+    parser.add_argument("--data", type=Path, default=Path(__file__).resolve().parents[1] / "assets", help="Directory of analysis tables")
     parser.add_argument("--geo-workbook", type=Path, help="Optional GSE156402 supplementary workbook from GEO")
     args = parser.parse_args()
     tables = args.data / "manuscript_tables"

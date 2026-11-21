@@ -13,7 +13,7 @@ from MDAnalysis.lib.distances import distance_array
 from reproduce import read_rows
 
 
-DATA_DIR = Path(__file__).resolve().parent / "data"
+DATA_DIR = Path(__file__).resolve().parents[1] / "assets"
 DISTANCE_COLUMN = "fixed_pocket_heavy_minimum_image_distance_nm"
 EPIMER_STEM = "D-Ru5P_C4-epimer"
 DISTANCE_ATOL_NM = 1e-6
