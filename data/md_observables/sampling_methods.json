@@ -1,0 +1,32 @@
+{
+  "python": "3.13.9",
+  "pymbar": "4.0.3",
+  "frame_spacing_ns": 0.1,
+  "frames_per_system": 1001,
+  "independent_trajectories_per_system": 1,
+  "windows_start_ns": [
+    0,
+    20,
+    50,
+    75
+  ],
+  "neff_definition": "N/g; direct PyMBAR fast=False, mintime=3; g>=1",
+  "constant_observable_policy": "ESS undefined (NaN), not independent samples or zero uncertainty",
+  "drift_screen": "abs(linear endpoint trend / SD)>1 OR abs(second-half mean - first-half mean)/SD>0.5; descriptive only",
+  "block_policy": "nonoverlapping blocks; at least four; trailing incomplete block excluded; no plateau assumed",
+  "no_confidence_intervals_claimed": true,
+  "automated_t0_not_used_to_trim_primary_results": true,
+  "fixed_pocket_npz_max_errors_nm": {
+    "CNP0542861.1": 1.9286727881429044e-08,
+    "CNP0511659.1": 1.930099485791814e-08,
+    "CNP0184442.0": 1.958145140479317e-08,
+    "CNP0196064.0": 2.8395996132246637e-07,
+    "CNP0211069.0": 3.2631835900076567e-07,
+    "substrate": 3.1973876879476393e-07
+  },
+  "missing_for_energy_ESS": "Per-frame MM-GBSA energies and exact frame/time mapping",
+  "references": [
+    "https://pymbar.readthedocs.io/en/stable/timeseries.html",
+    "https://doi.org/10.33011/livecoms.1.1.5067"
+  ]
+}

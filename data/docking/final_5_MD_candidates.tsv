@@ -1,0 +1,6 @@
+cid	final_name	role	affinity	LE	qed	MW	np_class	smiles
+CNP0542861.1	吲哚生物碱	结合最强,吲哚骨架	-9.29	0.546	0.74	229.24	Alkaloids	N=C1N=C(O)[C@@H](CC2=CNC3=CC=CC=C23)O1
+CNP0511659.1	Indolmycin	成药性最高QED0.87	-8.89	0.468	0.87	257.29	Alkaloids	CN=C1N=C(O)[C@@H]([C@@H](C)C2=CNC3=CC=CC=C23)O1
+CNP0196064.0	Indole-3-butyric acid(IBA)	天然生长素,根系/抗逆	-7.72	0.515	0.8	203.24	Alkaloids	O=C(O)CCCC1=CNC2=CC=CC=C12
+CNP0211069.0	Bergapten佛手柑内酯	呋喃香豆素防御素	-7.68	0.48	0.59	216.19	Shikimates and Phenylpropanoids	COC1=C2C=COC2=CC2=C1C=CC(=O)O2
+CNP0184442.0	Scopoletin东莨菪内酯	香豆素植物防御素	-7.16	0.511	0.7	192.17	Shikimates and Phenylpropanoids	COC1=CC2=C(C=C1O)OC(=O)C=C2

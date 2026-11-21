@@ -1,0 +1,13 @@
+accession	repository	url	analysis_role
+GSE198394	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198394	Arabidopsis root single-cell reference
+GSE212403	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212403	Tomato root single-cell reference
+GSE39894	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39894	Root interaction analysis
+GSE224629	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224629	Cultivated osmotic comparison
+GSE156402	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156402	Leaf vein and interveinal T1 estimates
+GSE279454	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE279454	Fungal perturbation contrasts
+GSE303938	NCBI GEO	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303938	Ultrasound perturbation contrast
+PRJNA800740	NCBI BioProject/SRA	https://www.ncbi.nlm.nih.gov/bioproject/800740	Leaf drought time course
+PRJNA925706	NCBI BioProject/SRA	https://www.ncbi.nlm.nih.gov/bioproject/925706	Abscisic acid perturbation
+PRJNA592330	NCBI BioProject/SRA	https://www.ncbi.nlm.nih.gov/bioproject/592330	Seaweed extract perturbation
+PRJNA812356	NCBI BioProject/SRA	https://www.ncbi.nlm.nih.gov/bioproject/812356	Melatonin perturbation
+CRA004475	CNCB/NGDC GSA	https://ngdc.cncb.ac.cn/gsa/browse/CRA004475	Methyl jasmonate perturbation

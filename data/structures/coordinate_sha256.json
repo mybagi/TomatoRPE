@@ -1,0 +1,7 @@
+{
+  "inputs\\1RPX.pdb": "6f48114c84469495c7e467f17bf45f8bb89c55dae46b3733529e7b56fab707af",
+  "inputs\\RPE_AF.pdb": "ca9a4760271470c6a88c864e2ef78225c71e5a947de4005182bd01033de2d741",
+  "predictions\\RPE_AF3.cif": "a5764948746143c7926e0f6002891f9046c61b68cea47fa68fae0a5a46f6e2e5",
+  "predictions\\RPE_AF3_no_template.cif": "6722c2c74d1a0508af084cd21a47e7e96a34a95b0eed02ffc44426e686de7a8e",
+  "predictions\\RPE_ESMFold2.cif": "8f4e9d1fef61419c3b56a7f40f104d1053f5677310bf98905f2c41a43176a180"
+}

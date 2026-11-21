@@ -1,0 +1,258 @@
+cid	affinity	heavy_atoms	LE	MW	qed	alogp	pains	tox_alerts	n_tox	np_class	name	smiles	clean
+CNP0201141.1	-5.8	9	0.644	131.18	0.58	0.44	False		0	Amino acids and Peptides	L-leucine	CC(C)C[C@H](N)C(=O)O	True
+CNP0187458.0	-6.81	11	0.619	154.12	0.52	0.8	False		0	Shikimates and Phenylpropanoids	2,5-DIHYDROXYBENZOIC ACID	O=C(O)C1=CC(O)=CC=C1O	True
+CNP0337843.1	-5.54	9	0.616	131.18	0.58	0.44	False		0	Amino acids and Peptides	l-isoleucine	CC[C@H](C)[C@H](N)C(=O)O	True
+CNP0113478.0	-7.15	12	0.596	165.15	0.62	0.28	False		0	Alkaloids	N-Formyl-4-hydroxybenzamide	O=CNC(=O)C1=CC=C(O)C=C1	True
+CNP0320906.0	-6.16	11	0.56	152.15	0.61	1.18	False		0	Shikimates and Phenylpropanoids	methyl salicylate	COC(=O)C1=CC=CC=C1O	True
+CNP0214953.0	-5.57	10	0.557	134.18	0.65	1.69	False		0	Shikimates and Phenylpropanoids	3-Phenyl-2-propenol	OCC=CC1=CC=CC=C1	True
+CNP0194999.0	-6.65	12	0.554	168.15	0.59	1.1	False		0	Shikimates and Phenylpropanoids	Orsellinic acid	CC1=CC(O)=CC(O)=C1C(=O)O	True
+CNP0111205.0	-5.48	10	0.548	137.18	0.64	0.89	False		0	Alkaloids	tyramine	NCCC1=CC=C(O)C=C1	True
+CNP0251579.0	-6.57	12	0.547	163.18	0.54	1.1	False		0	Alkaloids	Gentianidine	CC1=CC2=C(C=N1)C(=O)OCC2	True
+CNP0542861.1	-9.29	17	0.546	229.24	0.74	2.0	False		0	Alkaloids	(5R)-2-imino-5-(1H-indol-3-ylmethyl)-5H-1,3-oxazol-4-ol	N=C1N=C(O)[C@@H](CC2=CNC3=CC=CC=C23)O1	True
+CNP0264302.2	-5.44	10	0.544	141.21	0.62	1.11	False		0	Alkaloids	(+)-Pelletierine	CC(=O)C[C@@H]1CCCCN1	True
+CNP0291283.0	-6.52	12	0.543	162.14	0.6	1.5	False		0	Shikimates and Phenylpropanoids	Umbelliferone	O=C1C=CC2=CC=C(O)C=C2O1	True
+CNP0086374.0	-7.04	13	0.542	174.2	0.62	1.8	False		0	Alkaloids		NC=CC1=CNC2=CC=C(O)C=C12	True
+CNP0329876.0	-6.49	12	0.541	160.22	0.69	1.67	False		0	Alkaloids	tryptamine	NCCC1=CNC2=CC=CC=C12	True
+CNP0167976.1	-8.03	15	0.535	204.23	0.7	1.12	False		0	Amino acids and Peptides	L-tryptophan	N[C@@H](CC1=CNC2=CC=CC=C12)C(=O)O	True
+CNP0300826.0	-5.89	11	0.535	150.22	0.65	2.22	False		0	Terpenoids	2-(4-methylphenyl)propan-2-ol	CC1=CC=C(C(C)(C)O)C=C1	True
+CNP0183834.1	-5.86	11	0.533	152.24	0.53	2.57	False		0	Terpenoids	5524-05-0	C=C(C)[C@@H]1CC[C@@H](C)C(=O)C1	True
+CNP0178656.0	-5.33	10	0.533	136.24	0.52	3.31	False		0	Terpenoids	ALPHA-TERPINENE	CC1=CC=C(C(C)C)CC1	True
+CNP0330597.0	-7.45	14	0.532	191.19	0.76	1.87	False		0	Alkaloids	5-Methoxyindole-2-carboxylic acid	COC1=CC=C2NC(C(=O)O)=CC2=C1	True
+CNP0157328.0	-5.81	11	0.528	150.22	0.69	2.3	False		0	Terpenoids	4-isopropylbenzyl alcohol	CC(C)C1=CC=C(CO)C=C1	True
+CNP0282017.2	-5.26	10	0.526	136.24	0.49	3.31	False		0	Terpenoids	D-Limonene	C=C(C)[C@H]1CC=C(C)CC1	True
+CNP0174002.2	-5.25	10	0.525	136.24	0.45	3.0	False		0	Terpenoids	(+)-3-Carene	CC1=CC[C@@H]2[C@H](C1)C2(C)C	True
+CNP0405767.1	-5.77	11	0.525	152.24	0.6	2.28	False		0	Terpenoids	(+)-PERILLYL ALCOHOL	C=C(C)[C@H]1CC=C(CO)CC1	True
+CNP0122021.0	-6.3	12	0.525	168.15	0.69	1.1	False		0	Shikimates and Phenylpropanoids	Vanillic acid	COC1=CC(C(=O)O)=CC=C1O	True
+CNP0210919.0	-5.77	11	0.525	150.22	0.65	2.82	False		0	Terpenoids	CARVACROL	CC1=CC=C(C(C)C)C=C1O	True
+CNP0320423.0	-6.29	12	0.524	162.19	0.62	2.14	False		0	Shikimates and Phenylpropanoids	safrole	C=CCC1=CC=C2OCOC2=C1	True
+CNP0183834.5	-5.75	11	0.523	152.24	0.53	2.57	False		0	Terpenoids	(1S,4S)-Dihydrocarvone	C=C(C)[C@H]1CC[C@H](C)C(=O)C1	True
+CNP0160264.0	-5.23	10	0.523	136.24	0.45	3.45	False		0	Terpenoids	TERPINOLENE	CC1=CCC(=C(C)C)CC1	True
+CNP0110235.0	-6.78	13	0.522	176.22	0.65	1.37	False		0	Alkaloids	serotonin	NCCC1=CNC2=CC=C(O)C=C12	True
+CNP0174002.1	-5.22	10	0.522	136.24	0.45	3.0	False		0	Terpenoids	(-)-3-Carene	CC1=CC[C@H]2[C@@H](C1)C2(C)C	True
+CNP0361944.0	-5.74	11	0.522	150.18	0.6	1.75	False		0	Shikimates and Phenylpropanoids	BENZYL ACETATE	CC(=O)OCC1=CC=CC=C1	True
+CNP0177949.0	-6.27	12	0.522	167.21	0.62	0.2	False		0	Alkaloids		CNCCN(C=O)C1=CNC=C1	True
+CNP0297581.0	-6.25	12	0.521	169.18	0.59	0.08	False		0	Alkaloids	pyridoxine	CC1=NC=C(CO)C(CO)=C1O	True
+CNP0162506.1	-5.2	10	0.52	136.24	0.52	3.16	False		0	Terpenoids	(+)-alpha-phellandrene	CC1=CC[C@@H](C(C)C)C=C1	True
+CNP0311257.1	-5.71	11	0.519	154.25	0.58	2.5	False		0	Terpenoids	(+)-alpha-Terpineol	CC1=CC[C@H](C(C)(C)O)CC1	True
+CNP0311257.2	-5.7	11	0.518	154.25	0.58	2.5	False		0	Terpenoids	10482-56-1	CC1=CC[C@@H](C(C)(C)O)CC1	True
+CNP0196064.0	-7.72	15	0.515	203.24	0.8	2.58	False		0	Alkaloids	Indole-3-butyric acid	O=C(O)CCCC1=CNC2=CC=CC=C12	True
+CNP0239881.2	-5.66	11	0.515	152.24	0.48	2.38	False		0	Terpenoids	Anethofuran	CC1=C[C@@H]2OC[C@@H](C)[C@@H]2CC1	True
+CNP0159833.0	-6.69	13	0.515	175.19	0.61	1.44	False		0	Alkaloids	Gentianine	C=CC1=CN=CC2=C1CCOC2=O	True
+CNP0150273.0	-6.68	13	0.514	182.18	0.64	1.19	False		0	Shikimates and Phenylpropanoids	Methyl orsellinate	COC(=O)C1=C(C)C=C(O)C=C1O	True
+CNP0184442.0	-7.16	14	0.511	192.17	0.7	1.51	False		0	Shikimates and Phenylpropanoids	scopoletin	COC1=CC2=C(C=C1O)OC(=O)C=C2	True
+CNP0527074.0	-7.15	14	0.511	191.19	0.75	1.85	False		0	Shikimates and Phenylpropanoids	Oxindole-3-acetic acid	O=C(O)CC1C(O)=NC2=CC=CC=C21	True
+CNP0301563.1	-5.59	11	0.508	152.24	0.56	2.26	False		0	Terpenoids		CC(C)[C@@H]1CC(=O)[C@@]2(C)C[C@@H]12	True
+CNP0155981.1	-8.13	16	0.508	219.24	0.74	1.72	False		0	Alkaloids		C[C@@H](C1=CNC2=CC=CC=C12)[C@@H](O)C(=O)O	True
+CNP0390712.1	-5.55	11	0.505	154.25	0.57	2.36	False		0	Terpenoids	(+)-isodihydrocarveol	C=C(C)[C@@H]1CC[C@H](C)[C@@H](O)C1	True
+CNP0204388.2	-5.02	10	0.502	136.24	0.52	3.16	False		0	Terpenoids	(+)-beta-Phellandrene	C=C1C=C[C@H](C(C)C)CC1	True
+CNP0224794.2	-5.51	11	0.501	154.25	0.58	2.5	False		0	Terpenoids	(-)-Terpinen-4-ol	CC1=CC[C@@](O)(C(C)C)CC1	True
+CNP0254042.2	-5.51	11	0.501	152.24	0.57	2.28	False		0	Terpenoids	cis-p-Mentha-1(7),8-dien-2-ol	C=C(C)[C@H]1CCC(=C)[C@H](O)C1	True
+CNP0264302.1	-5.0	10	0.5	141.21	0.62	1.11	False		0	Alkaloids	2858-66-4	CC(=O)C[C@H]1CCCCN1	True
+CNP0250789.4	-5.49	11	0.499	152.24	0.57	2.28	False		0	Terpenoids	(-)-trans-Carveol	C=C(C)[C@@H]1CC=C(C)[C@@H](O)C1	True
+CNP0113388.1	-6.47	13	0.498	183.21	0.63	0.39	False		0	Alkaloids	4-[(1S)-2-amino-1-hydroxyethyl]-2-methoxyphenol	COC1=CC([C@H](O)CN)=CC=C1O	True
+CNP0174240.1	-4.98	10	0.498	134.22	0.48	3.08	False		0	Terpenoids		C=C(C)[C@H]1CCC=CC1=C	True
+CNP0135128.0	-5.44	11	0.495	150.22	0.65	2.82	False		0	Terpenoids	THYMOL	CC1=CC=C(C(C)C)C(O)=C1	True
+CNP0248677.0	-6.44	13	0.495	170.21	0.7	3.06	False		0	Shikimates and Phenylpropanoids	2-Phenylphenol	OC1=CC=CC=C1C1=CC=CC=C1	True
+CNP0204388.1	-4.94	10	0.494	136.24	0.52	3.16	False		0	Terpenoids	(-)-beta-Phellandrene	C=C1C=C[C@@H](C(C)C)CC1	True
+CNP0238080.0	-5.4	11	0.491	148.2	0.6	3.26	False		0	Terpenoids		C=C(C)CC=CC1=COC=C1	True
+CNP0162506.2	-4.9	10	0.49	136.24	0.52	3.16	False		0	Terpenoids	4221-98-1	CC1=CC[C@H](C(C)C)C=C1	True
+CNP0134292.0	-5.88	12	0.49	164.2	0.69	2.13	False		0	Shikimates and Phenylpropanoids	eugenol	C=CCC1=CC=C(O)C(OC)=C1	True
+CNP0144409.1	-5.38	11	0.489	152.24	0.57	2.42	False		0	Terpenoids		C=C(C)[C@]1(O)CC=C(C)CC1	True
+CNP0254042.1	-5.35	11	0.486	152.24	0.57	2.28	False		0	Terpenoids	trans-1(7),8-p-Menthadien-2-ol	C=C(C)[C@@H]1CCC(=C)[C@@H](O)C1	True
+CNP0253574.1	-5.33	11	0.485	154.21	0.53	1.58	False		0	Terpenoids		C[C@H]1CC(=O)CC(C)(C)C1=O	True
+CNP0188542.1	-6.3	13	0.485	186.25	0.67	0.73	False		0	Terpenoids		C[C@H]1CC[C@@H]([C@@](C)(O)CO)CC1=O	True
+CNP0600257.0	-5.33	11	0.485	158.25	0.58	0.64	False		0	Amino acids and Peptides	2-amino-N-methylheptanamide	CCCCCC(N)C(=O)NC	True
+CNP0295010.0	-4.84	10	0.484	136.24	0.41	3.48	False		0	Terpenoids	beta-Ocimene	C=CC(C)=CCC=C(C)C	True
+CNP0196061.2	-5.81	12	0.484	172.27	0.63	1.55	False		0	Terpenoids	1alpha,3beta,4beta-p-menthane-3,8-diol	C[C@H]1CC[C@H](C(C)(C)O)[C@H](O)C1	True
+CNP0211069.0	-7.68	16	0.48	216.19	0.59	2.55	False		0	Shikimates and Phenylpropanoids	Bergapten	COC1=C2C=COC2=CC2=C1C=CC(=O)O2	True
+CNP0344098.1	-5.23	11	0.475	154.25	0.57	2.36	False		0	Terpenoids		C=C(C)[C@H]1CC[C@](C)(O)[C@@H]1C	True
+CNP0232477.4	-5.21	11	0.474	154.25	0.57	2.36	False		0	Terpenoids	(-)-Isopulegol	C=C(C)[C@@H]1CC[C@@H](C)C[C@H]1O	True
+CNP0130871.2	-5.2	11	0.473	152.24	0.48	2.45	False		0	Terpenoids		C=CC(C)=CC[C@@H](O)C(=C)C	True
+CNP0265925.0	-6.62	14	0.473	196.16	0.77	1.12	False		0	Shikimates and Phenylpropanoids	526-34-1	COC1=CC(C(=O)O)=CC2=C1OCO2	True
+CNP0130871.1	-5.19	11	0.472	152.24	0.48	2.45	False		0	Terpenoids		C=C/C(C)=C/C[C@@H](O)C(=C)C	True
+CNP0207222.0	-6.14	13	0.472	176.22	0.66	2.26	False		0	Shikimates and Phenylpropanoids	(E)-3-Phenylallyl Acetate	CC(=O)OCC=CC1=CC=CC=C1	True
+CNP0192330.2	-6.6	14	0.471	196.29	0.5	3.07	False		0	Terpenoids	7785-54-8	CC(=O)OC(C)(C)[C@H]1CC=C(C)CC1	True
+CNP0244258.0	-5.17	11	0.47	154.25	0.62	2.67	False		0	Terpenoids	3,7-Dimethyl-2,6-octadien-1-ol	CC(C)=CCCC(C)=CCO	True
+CNP0152105.1	-5.17	11	0.47	156.27	0.61	2.75	False		0	Terpenoids	D-Citronellol	CC(C)=CCC[C@@H](C)CCO	True
+CNP0511659.1	-8.89	19	0.468	257.29	0.87	2.61	False		0	Alkaloids	Indolmycin	CN=C1N=C(O)[C@@H]([C@@H](C)C2=CNC3=CC=CC=C23)O1	True
+CNP0503545.0	-6.08	13	0.468	175.19	0.72	1.95	False		0	Alkaloids	4-methoxyquinolin-2-ol	COC1=CC(O)=NC2=CC=CC=C12	True
+CNP0332750.0	-6.06	13	0.466	181.24	0.76	1.21	False		0	Alkaloids	3,4-Dimethoxyphenethylamine	COC1=CC=C(CCN)C=C1OC	True
+CNP0353648.1	-6.5	14	0.464	202.25	0.71	1.03	False		0	Polyketides	(-)-Nonactic acid	C[C@H](O)C[C@@H]1CC[C@H]([C@@H](C)C(=O)O)O1	True
+CNP0311790.1	-6.46	14	0.461	225.22	0.53	-0.99	False		0	Amino acids and Peptides	(2S,4S)-4-sulfooxypiperidine-2-carboxylic Acid	O=C(O)[C@@H]1C[C@@H](OS(=O)(=O)O)CCN1	True
+CNP0176209.4	-6.91	15	0.461	214.22	0.56	-0.21	False		0	Shikimates and Phenylpropanoids	threo-Guaiacylglycerol	COC1=CC([C@@H](O)[C@H](O)CO)=CC=C1O	True
+CNP0159011.0	-6.9	15	0.46	199.21	0.6	2.99	False		0	Alkaloids	Dictamnine	COC1=C2C=CC=CC2=NC2=C1C=CO2	True
+CNP0174452.1	-5.5	12	0.458	166.22	0.7	2.15	False		0	Terpenoids		C=C(C)[C@H](O)CCC1=COC=C1	True
+CNP0152105.2	-5.0	11	0.455	156.27	0.61	2.75	False		0	Terpenoids	7540-51-4	CC(C)=CCC[C@H](C)CCO	True
+CNP0256441.0	-5.92	13	0.455	172.27	0.56	3.69	False		0	Terpenoids	1,1,6-Trimethyl-1,2-dihydronaphthalene	CC1=CC=C2C(=C1)C=CCC2(C)C	True
+CNP0277129.1	-5.45	12	0.454	168.24	0.44	2.45	False		0	Terpenoids	cis-isoascaridole	CC(C)[C@]12C=C[C@](C)(CC1)OO2	True
+CNP0241365.0	-4.53	10	0.453	136.24	0.41	3.48	False		0	Terpenoids	MYRCENE	C=CC(=C)CCC=C(C)C	True
+CNP0196061.1	-5.43	12	0.452	172.27	0.63	1.55	False		0	Terpenoids	Menthoglycol	C[C@@H]1CC[C@@H](C(C)(C)O)[C@H](O)C1	True
+CNP0188542.2	-5.88	13	0.452	186.25	0.67	0.73	False		0	Terpenoids		C[C@H]1CC[C@H]([C@](C)(O)CO)CC1=O	True
+CNP0239894.0	-4.92	11	0.447	152.24	0.48	2.45	False		0	Terpenoids	DTXSID60863971	C=CC(=C)CC=CC(C)(C)O	True
+CNP0530638.0	-7.14	16	0.446	217.22	0.78	2.12	False		0	Alkaloids	MLS000715521	CCOC(=O)C1=CC(O)=NC2=CC=CC=C12	True
+CNP0373115.2	-4.91	11	0.446	154.25	0.62	2.67	False		0	Terpenoids	126-90-9	C=C[C@@](C)(O)CCC=C(C)C	True
+CNP0232477.3	-4.88	11	0.444	154.25	0.57	2.36	False		0	Terpenoids	(-)-Neoisopulegol	C=C(C)[C@H]1CC[C@H](C)C[C@H]1O	True
+CNP0310630.1	-5.28	12	0.44	170.25	0.62	1.64	False		0	Terpenoids		C=CC(=C)CC[C@@H](O)C(C)(C)O	True
+CNP0252830.1	-5.72	13	0.44	176.21	0.53	1.99	False		0	Terpenoids	(2E,5R)-2-but-2-ynylidene-1,6-dioxaspiro[4.4]non-3-ene	CC#C/C=C1\C=C[C@@]2(CCCO2)O1	True
+CNP0511659.2	-8.3	19	0.437	257.29	0.87	2.61	False		0	Alkaloids	(5R)-5-[(1R)-1-(1H-indol-3-yl)ethyl]-2-methylimino-5H-1,3-oxazol-4-ol	CN=C1N=C(O)[C@@H]([C@H](C)C2=CNC3=CC=CC=C23)O1	True
+CNP0214931.0	-6.9	16	0.431	216.19	0.59	2.55	False		0	Shikimates and Phenylpropanoids	methoxsalen	COC1=C2OC=CC2=CC2=C1OC(=O)C=C2	True
+CNP0121863.1	-6.87	16	0.429	226.27	0.69	1.38	False		0	Fatty acids		C[C@@H](O)/C=C\C[C@H]1C(=O)CC[C@@H]1CC(=O)O	True
+CNP0280563.0	-5.14	12	0.428	164.25	0.65	3.13	False		0	Terpenoids	1076-56-8	COC1=CC(C)=CC=C1C(C)C	True
+CNP0143990.0	-6.39	15	0.426	204.23	0.71	0.94	False		0	Alkaloids	Solsodomine A	O=CN(CCC1=CN=CN1)C1=CNC=C1	True
+CNP0243291.2	-5.52	13	0.425	188.27	0.56	0.84	False		0	Terpenoids		C=C[C@@](C)(O)CC[C@@H](O)C(C)(C)O	True
+CNP0373115.1	-4.66	11	0.424	154.25	0.62	2.67	False		0	Terpenoids	(-)-Linalool	C=C[C@](C)(O)CCC=C(C)C	True
+CNP0317304.1	-5.89	14	0.421	200.23	0.57	-0.22	False		0	Terpenoids		C[C@H]1COC(=O)[C@@H]2[C@@H](CO)[C@@H](O)C[C@@H]21	True
+CNP0193210.0	-6.32	15	0.421	202.21	0.57	2.36	False		0	Shikimates and Phenylpropanoids	4-ALLYLOXYCOUMARIN	C=CCOC1=CC(=O)OC2=CC=CC=C12	True
+CNP0315245.1	-5.42	13	0.417	182.26	0.48	2.85	False		0	Terpenoids		C=C[C@@H](CCC=C(C)C)OC(C)=O	True
+CNP0191233.0	-5.82	14	0.416	195.26	0.79	1.5	False		0	Alkaloids	Magnosprengerine	COC1=CC(CCN(C)C)=CC=C1O	True
+CNP0188030.0	-5.82	14	0.416	192.21	0.69	2.15	False		0	Shikimates and Phenylpropanoids	Myristicin	C=CCC1=CC(OC)=C2OCOC2=C1	True
+CNP0390626.0	-5.76	14	0.411	195.26	0.77	1.47	False		0	Alkaloids	N-Methylhomoveratrylamine	CNCCC1=CC=C(OC)C(OC)=C1	True
+CNP0216699.0	-6.98	17	0.411	222.24	0.63	3.46	False		0	Shikimates and Phenylpropanoids	FLAVONE	O=C1C=C(C2=CC=CC=C2)OC2=CC=CC=C12	True
+CNP0316345.1	-7.36	18	0.409	240.26	0.83	3.1	False		0	Shikimates and Phenylpropanoids	(2S)-7-hydroxyflavanone	O=C1C[C@@H](C2=CC=CC=C2)OC2=CC(O)=CC=C12	True
+CNP0293260.1	-4.91	12	0.409	170.25	0.64	1.88	False		0	Terpenoids	Linalool oxide B	C=C[C@@]1(C)CC[C@@H](C(C)(C)O)O1	True
+CNP0160255.1	-4.48	11	0.407	154.25	0.52	2.74	False		0	Terpenoids	1,8-Cineole	CC1(C)O[C@]2(C)CC[C@H]1CC2	True
+CNP0313419.0	-6.91	17	0.406	222.24	0.63	3.46	False		0	Shikimates and Phenylpropanoids	Isoflavone	O=C1C(C2=CC=CC=C2)=COC2=CC=CC=C12	True
+CNP0150444.2	-5.69	14	0.406	196.29	0.5	3.24	False		0	Terpenoids	(+)-linalyl acetate	C=C[C@](C)(CCC=C(C)C)OC(C)=O	True
+CNP0155116.0	-5.67	14	0.405	198.17	0.76	1.11	False		0	Shikimates and Phenylpropanoids	SYRINGIC ACID	COC1=CC(C(=O)O)=CC(OC)=C1O	True
+CNP0235256.0	-6.44	16	0.403	216.24	0.78	3.37	False		0	Shikimates and Phenylpropanoids	Euparin	C=C(C)C1=CC2=CC(C(C)=O)=C(O)C=C2O1	True
+CNP0150444.1	-5.64	14	0.403	196.29	0.5	3.24	False		0	Terpenoids	(R)-Linalyl acetate	C=C[C@@](C)(CCC=C(C)C)OC(C)=O	True
+CNP0301697.0	-5.63	14	0.402	196.29	0.5	3.24	False		0	Terpenoids	3,7-Dimethylocta-2,6-dienyl acetate	CC(=O)OCC=C(C)CCC=C(C)C	True
+CNP0294410.0	-6.01	15	0.401	208.21	0.82	1.43	False		0	Shikimates and Phenylpropanoids	3,4-methylenedioxy-5-methoxycinnamyl alcohol	COC1=CC(C=CCO)=CC2=C1OCO2	True
+CNP0196061.3	-4.81	12	0.401	172.27	0.63	1.55	False		0	Terpenoids	Neomenthoglycol	C[C@@H]1CC[C@@H](C(C)(C)O)[C@@H](O)C1	True
+CNP0149831.1	-6.79	17	0.399	234.25	0.61	1.45	False		0	Terpenoids	12-Hydroxy-2,3-dihydroeuparin	C=C(CO)[C@@H]1CC2=CC(C(C)=O)=C(O)C=C2O1	True
+CNP0142566.1	-5.98	15	0.399	211.26	0.76	0.96	False		0	Alkaloids	(-)-Normacromerine	CNC[C@H](O)C1=CC=C(OC)C(OC)=C1	True
+CNP0130004.0	-6.36	16	0.398	215.21	0.68	2.7	False		0	Alkaloids	Robustine	COC1=C2C=COC2=NC2=C(O)C=CC=C12	True
+CNP0176741.1	-4.37	11	0.397	150.22	0.48	2.3	False		0	Terpenoids		C=C1CO[C@@H]2C=C(C)CC[C@H]12	True
+CNP0507043.2	-5.92	15	0.395	210.28	0.75	1.36	False		0	Amino acids and Peptides	(3S,8aR)-1-hydroxy-3-(2-methylpropyl)-6,7,8,8a-tetrahydro-3H-pyrrolo[1,2-a]pyrazin-4-one	CC(C)C[C@@H]1N=C(O)[C@H]2CCCN2C1=O	True
+CNP0412193.1	-7.47	19	0.393	256.26	0.82	2.8	False		0	Shikimates and Phenylpropanoids	Liquiritigenin	O=C1C[C@@H](C2=CC=C(O)C=C2)OC2=CC(O)=CC=C12	True
+CNP0286100.0	-5.88	15	0.392	206.2	0.7	1.81	False		0	Shikimates and Phenylpropanoids	Scoparone	COC1=CC2=C(C=C1OC)OC(=O)C=C2	True
+CNP0538077.1	-6.64	17	0.391	238.37	0.82	3.18	False		0	Terpenoids	Eutypeterpene N	CC(=O)CC[C@H]1[C@@H]2C[C@@H](C(C)(C)O)CC[C@]12C	True
+CNP0119619.0	-6.25	16	0.391	224.21	0.77	0.99	False		0	Shikimates and Phenylpropanoids		COC1=CC(C(=O)CCO)=CC2=C1OCO2	True
+CNP0105790.1	-7.0	18	0.389	241.29	0.86	2.15	False		0	Alkaloids	Benzamide, N-[(2S)-2-hydroxy-2-phenylethyl]-	O=C(NC[C@@H](O)C1=CC=CC=C1)C1=CC=CC=C1	True
+CNP0480646.0	-7.0	18	0.389	270.35	0.8	1.78	False		0	Alkaloids	tolbutamide	CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1	True
+CNP0190002.0	-7.37	19	0.388	254.24	0.7	2.87	False		0	Shikimates and Phenylpropanoids	daidzein	O=C1C(C2=CC=C(O)C=C2)=COC2=CC(O)=CC=C12	True
+CNP0264098.2	-5.8	15	0.387	210.27	0.71	2.41	False		0	Fatty acids	(+)-7-iso-Jasmonic acid	CC/C=C\C[C@@H]1C(=O)CC[C@@H]1CC(=O)O	True
+CNP0537825.0	-6.96	18	0.387	241.29	0.84	3.54	False		0	Alkaloids	4-methoxy-3-(3-methylbuta-1,3-dienyl)quinolin-2-ol	C=C(C)C=CC1=C(O)N=C2C=CC=CC2=C1OC	True
+CNP0146269.0	-6.96	18	0.387	242.27	0.81	2.87	False		0	Shikimates and Phenylpropanoids	Lusianthridin	COC1=CC(O)=C2C(=C1)CCC1=CC(O)=CC=C12	True
+CNP0359222.0	-6.18	16	0.386	212.25	0.75	3.27	False		0	Shikimates and Phenylpropanoids	5-Styrylresorcinol	OC1=CC(O)=CC(C=CC2=CC=CC=C2)=C1	True
+CNP0117125.0	-6.51	17	0.383	228.25	0.69	2.97	False		0	Shikimates and Phenylpropanoids	4-[2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol	OC1=CC=C(C=CC2=CC=C(O)C=C2O)C=C1	True
+CNP0293260.2	-4.6	12	0.383	170.25	0.64	1.88	False		0	Terpenoids	2-[(2R,5R)-5-ethenyl-5-methyloxolan-2-yl]propan-2-ol	C=C[C@@]1(C)CC[C@H](C(C)(C)O)O1	True
+CNP0157107.0	-7.26	19	0.382	292.75	0.76	3.21	False		0	Alkaloids		OCC1=CSC(C2=NC3=CC(Cl)=CC=C3C=C2O)=N1	True
+CNP0303902.0	-8.02	21	0.382	282.25	0.74	2.89	False		0	Shikimates and Phenylpropanoids	Pseudobaptigenin	O=C1C(C2=CC=C3OCOC3=C2)=COC2=CC(O)=CC=C12	True
+CNP0376898.1	-7.64	20	0.382	272.26	0.69	2.04	False		0	Shikimates and Phenylpropanoids		O=C1O[C@H](C2=CC=CC=C2)[C@@H](O)C2=CC(O)=CC(O)=C12	True
+CNP0175595.1	-7.23	19	0.381	256.26	0.82	2.8	False		0	Shikimates and Phenylpropanoids	Pinocembrin	O=C1C[C@@H](C2=CC=CC=C2)OC2=CC(O)=CC(O)=C12	True
+CNP0124480.0	-6.85	18	0.381	242.27	0.81	2.91	False		0	Shikimates and Phenylpropanoids	2',4'-Dihydroxydihydrochalcone	O=C(CCC1=CC=CC=C1)C1=CC=C(O)C=C1O	True
+CNP0264098.1	-5.72	15	0.381	210.27	0.71	2.41	False		0	Fatty acids	Jasmonic acid	CC/C=C\C[C@H]1C(=O)CC[C@@H]1CC(=O)O	True
+CNP0246399.3	-4.16	11	0.378	152.24	0.57	1.97	False		0	Terpenoids	Darwinol	CC1(C)[C@@H]2CC=C(CO)[C@H]1C2	True
+CNP0410487.1	-5.66	15	0.377	204.36	0.56	5.04	False		0	Terpenoids	(R)-beta-bisabolene	C=C(CCC=C(C)C)[C@H]1CC=C(C)CC1	True
+CNP0410487.2	-5.62	15	0.375	204.36	0.56	5.04	False		0	Terpenoids	beta-Bisabolene	C=C(CCC=C(C)C)[C@@H]1CC=C(C)CC1	True
+CNP0187998.1	-7.48	20	0.374	270.28	0.91	3.11	False		0	Shikimates and Phenylpropanoids		COC1=CC=C2C(=O)C[C@@H](C3=CC=C(O)C=C3)OC2=C1	True
+CNP0326644.0	-7.11	19	0.374	253.26	0.7	2.74	False		0	Alkaloids		O=C(C1=CC=CC(O)=C1)N1C=C(O)C2=CC=CC=C21	True
+CNP0225909.0	-7.49	20	0.374	268.27	0.78	3.17	False		0	Shikimates and Phenylpropanoids	formononetin	COC1=CC=C(C2=COC3=CC(O)=CC=C3C2=O)C=C1	True
+CNP0280813.1	-7.46	20	0.373	270.28	0.91	3.11	False		0	Shikimates and Phenylpropanoids	Pinostrobin	COC1=CC(O)=C2C(=O)C[C@@H](C3=CC=CC=C3)OC2=C1	True
+CNP0198084.2	-5.59	15	0.373	200.24	0.56	1.99	False		0	Terpenoids	(2E,5R)-2-hexa-2,4-diynylidene-1,6-dioxaspiro[4.4]non-3-ene	CC#CC#C/C=C1\C=C[C@@]2(CCCO2)O1	True
+CNP0303998.0	-7.09	19	0.373	253.26	0.7	2.74	False		0	Alkaloids		O=C(C1=CC=C(O)C=C1)N1C=C(O)C2=CC=CC=C21	True
+CNP0256268.1	-3.72	10	0.372	136.24	0.45	3.0	False		0	Terpenoids	(-)-camphene	C=C1[C@@H]2CC[C@@H](C2)C1(C)C	True
+CNP0301548.0	-6.63	18	0.368	237.26	0.71	3.04	False		0	Shikimates and Phenylpropanoids		O=C(C1=CC=CC=C1)N1C=C(O)C2=CC=CC=C21	True
+CNP0218560.0	-6.63	18	0.368	240.26	0.64	3.41	False		0	Shikimates and Phenylpropanoids	Lusianthrin	COC1=CC(O)=C2C(=C1)C=CC1=CC(O)=CC=C12	True
+CNP0121394.0	-7.69	21	0.366	284.27	0.76	2.88	False		0	Shikimates and Phenylpropanoids	Calycosin	COC1=CC=C(C2=COC3=CC(O)=CC=C3C2=O)C=C1O	True
+CNP0160123.2	-5.84	16	0.365	222.37	0.71	4.23	False		0	Terpenoids	(-)-epi-alpha-Bisabolol	CC(C)=CCC[C@@](C)(O)[C@@H]1CC=C(C)CC1	True
+CNP0223321.0	-6.19	17	0.364	226.28	0.81	3.57	False		0	Shikimates and Phenylpropanoids	3-methoxy-5-(2-phenylethenyl)phenol	COC1=CC(O)=CC(C=CC2=CC=CC=C2)=C1	True
+CNP0247661.0	-6.17	17	0.363	228.25	0.69	2.97	False		0	Shikimates and Phenylpropanoids	1,3-Benzenediol, 5-[(1Z)-2-(4-hydroxyphenyl)ethenyl]-	OC1=CC=C(C=CC2=CC(O)=CC(O)=C2)C=C1	True
+CNP0145264.0	-7.59	21	0.361	304.69	0.64	3.23	False		0	Shikimates and Phenylpropanoids	6-chloro-5,7-dihydroxy-3-(4-hydroxyphenyl)-4H-chromen-4-one	O=C1C(C2=CC=C(O)C=C2)=COC2=CC(O)=C(Cl)C(O)=C12	True
+CNP0181796.1	-6.5	18	0.361	248.28	0.84	1.8	False		0	Polyketides		CC1=CC2=C(C(C)=C1CC(=O)O)[C@@H](O)[C@@H](C)C2=O	True
+CNP0384274.1	-7.93	22	0.36	300.31	0.92	3.02	False		0	Shikimates and Phenylpropanoids	DTXSID401140540	COC1=CC=C2C(=C1)OC[C@H]1C3=CC(O)=C(OC)C=C3O[C@@H]21	True
+CNP0174866.0	-7.21	20	0.36	270.24	0.63	2.58	False		0	Shikimates and Phenylpropanoids	genistein	O=C1C(C2=CC=C(O)C=C2)=COC2=CC(O)=CC(O)=C12	True
+CNP0210402.3	-3.59	10	0.359	136.24	0.45	3.0	False		0	Terpenoids	(-)-beta-Pinene	C=C1CC[C@H]2C[C@@H]1C2(C)C	True
+CNP0218028.1	-7.17	20	0.358	272.26	0.74	2.51	False		0	Shikimates and Phenylpropanoids	naringenin	O=C1C[C@@H](C2=CC=C(O)C=C2)OC2=CC(O)=CC(O)=C12	True
+CNP0297303.0	-7.15	20	0.358	268.27	0.78	3.17	False		0	Shikimates and Phenylpropanoids	isoformononetin	COC1=CC=C2C(=O)C(C3=CC=C(O)C=C3)=COC2=C1	True
+CNP0458598.1	-7.17	20	0.358	274.32	0.9	3.57	False		0	Shikimates and Phenylpropanoids	Prochaetoviridin A	CC[C@H](C)C=CC1=CC2=CC(O)=C(C)C(O)=C2C(=O)O1	True
+CNP0285815.0	-6.41	18	0.356	244.29	0.87	2.89	False		0	Shikimates and Phenylpropanoids	batatasin III	COC1=CC(O)=CC(CCC2=CC=CC(O)=C2)=C1	True
+CNP0228191.1	-6.76	19	0.356	294.76	0.89	2.45	False		0	Alkaloids		OC[C@H]1CSC(C2=NC3=CC(Cl)=CC=C3C=C2O)=N1	True
+CNP0122084.3	-6.03	17	0.355	238.37	0.74	3.06	False		0	Terpenoids		CC(C)=CCC[C@@H](C)[C@@H]1C=C[C@@](C)(O)[C@H](O)C1	True
+CNP0280624.0	-6.71	19	0.353	254.24	0.7	2.87	False		0	Shikimates and Phenylpropanoids	chrysin	O=C1C=C(C2=CC=CC=C2)OC2=CC(O)=CC(O)=C12	True
+CNP0135794.0	-7.4	21	0.352	284.27	0.76	2.88	False		0	Shikimates and Phenylpropanoids	3'-Methoxydaidzein	COC1=CC(C2=COC3=CC(O)=CC=C3C2=O)=CC=C1O	True
+CNP0272165.1	-5.61	16	0.351	226.32	0.54	0.92	False		0	Terpenoids		C[C@@H](O)C#C[C@]1(O)[C@@H](C)C[C@H](O)CC1(C)C	True
+CNP0231295.9	-7.35	21	0.35	289.38	0.86	1.93	False		0	Alkaloids	[(1~{R},5~{S})-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] (2~{S})-3-hydroxy-2-phenyl-propanoate	CN1[C@@H]2CC[C@H]1C[C@@H](OC(=O)[C@H](CO)C1=CC=CC=C1)C2	True
+CNP0126136.0	-5.6	16	0.35	226.23	0.73	0.97	False		0	Shikimates and Phenylpropanoids		COC1=CC(C(=O)CCO)=CC(O)=C1OC	True
+CNP0344781.1	-4.88	14	0.349	190.25	0.65	0.55	False		0	Alkaloids	CYTISINE	O=C1C=CC=C2[C@H]3CNC[C@H](C3)CN21	True
+CNP0393256.1	-7.61	22	0.346	302.28	0.79	2.52	False		0	Shikimates and Phenylpropanoids	hesperetin	COC1=CC=C([C@@H]2CC(=O)C3=C(O)C=C(O)C=C3O2)C=C1O	True
+CNP0258951.1	-6.58	19	0.346	260.29	0.68	1.95	False		0	Shikimates and Phenylpropanoids		OC1=CC=C(C[C@@H](O)CC2=CC=C(O)C=C2O)C=C1	True
+CNP0139420.1	-5.53	16	0.346	218.34	0.71	3.16	False		0	Terpenoids		C=C1CC[C@@](C)([C@H]2C[C@@H]3C(CO)=C[C@@H]32)[C@H]1C	True
+CNP0498022.0	-6.56	19	0.345	266.34	0.89	3.01	False		0	Terpenoids		CC(C)(O)CC(=O)CC1(C)CCC(C2=COC=C2)O1	True
+CNP0122084.2	-5.86	17	0.345	238.37	0.74	3.06	False		0	Terpenoids	129673-87-6	CC(C)=CCC[C@H](C)[C@@H]1C=C[C@](C)(O)[C@@H](O)C1	True
+CNP0189380.1	-5.87	17	0.345	234.29	0.82	1.7	False		0	Terpenoids		CC1=CC2=C(C(C)=C1CCO)[C@@H](O)[C@@H](C)C2=O	True
+CNP0168158.1	-5.87	17	0.345	232.28	0.85	2.31	False		0	Terpenoids	Pterosin E	CC1=CC2=C(C(=O)[C@H](C)C2)C(C)=C1CC(=O)O	True
+CNP0211044.1	-7.22	21	0.344	286.28	0.84	2.72	False		0	Shikimates and Phenylpropanoids		COC1=CC=C2C(=C1O)O[C@H]1C3=CC=C(O)C=C3OC[C@@H]21	True
+CNP0166773.2	-4.81	14	0.344	194.32	0.59	3.76	False		0	Terpenoids	2278-53-7	C=C(C)/C=C/[C@H](CCC(C)=O)C(C)C	True
+CNP0126761.0	-5.16	15	0.344	204.36	0.56	5.18	False		0	Terpenoids	495-62-5	CC(C)=CCCC(C)=C1CC=C(C)CC1	True
+CNP0376898.2	-6.88	20	0.344	272.26	0.69	2.04	False		0	Shikimates and Phenylpropanoids		O=C1O[C@@H](C2=CC=CC=C2)[C@H](O)C2=CC(O)=CC(O)=C12	True
+CNP0218673.2	-5.83	17	0.343	238.37	0.74	3.06	False		0	Terpenoids		CC(C)=CCC[C@@H](C)[C@@H]1C[C@@H](O)C(C)=C[C@H]1O	True
+CNP0391742.0	-5.46	16	0.341	222.2	0.78	1.52	False		0	Shikimates and Phenylpropanoids	Isofraxidin	COC1=CC2=C(OC(=O)C=C2)C(OC)=C1O	True
+CNP0251015.0	-6.82	20	0.341	270.24	0.63	2.58	False		0	Shikimates and Phenylpropanoids	apigenin	O=C1C=C(C2=CC=C(O)C=C2)OC2=CC(O)=CC(O)=C12	True
+CNP0333434.0	-8.51	25	0.34	336.3	0.52	3.94	False		0	Shikimates and Phenylpropanoids	Pachyrrhizin	COC1=CC2=C(C=C1C1=CC3=CC4=C(C=C3OC1=O)OC=C4)OCO2	True
+CNP0422183.1	-5.78	17	0.34	236.35	0.72	2.67	False		0	Terpenoids	Sirenin	C/C(=C\CC[C@@]1(C)[C@@H]2C=C(CO)CC[C@@H]21)CO	True
+CNP0208171.1	-5.08	15	0.339	216.28	0.69	0.85	False		0	Polyketides		CC[C@@H](O)C[C@@H]1CC[C@H](O)[C@@H](C)C(=O)O1	True
+CNP0224654.0	-6.43	19	0.338	262.31	0.91	2.9	False		0	Terpenoids		COC1=C(CCC(=O)O)C=CC2=C1C=CC(C)(C)O2	True
+CNP0220187.0	-5.05	15	0.337	204.36	0.41	5.2	False		0	Terpenoids	25037-13-0	C=CC(C)=CCC=C(C)CCC=C(C)C	True
+CNP0413350.0	-4.71	14	0.336	189.21	0.68	1.55	False		0	Alkaloids	4-methoxy-1-methylquinolin-2-one	COC1=CC(=O)N(C)C2=CC=CC=C12	True
+CNP0295272.2	-5.03	15	0.335	210.32	0.69	2.28	False		0	Terpenoids		CC1=C[C@@H](O)CC(C)(C)[C@H]1/C=C/[C@@H](C)O	True
+CNP0208754.2	-6.37	19	0.335	259.31	0.9	2.32	False		0	Alkaloids		COC1=C2C[C@@H](C(C)(C)O)OC2=NC2=CC=CC=C12	True
+CNP0253424.0	-6.36	19	0.335	256.26	0.74	2.97	False		0	Shikimates and Phenylpropanoids		O=C(O)C1=C(O)C=C(O)C=C1C=CC1=CC=CC=C1	True
+CNP0141830.1	-7.36	22	0.335	300.31	0.92	3.02	False		0	Shikimates and Phenylpropanoids	(-)-Sparticarpin	COC1=CC2=C(C=C1OC)[C@@H]1OC3=CC(O)=CC=C3[C@@H]1CO2	True
+CNP0195444.2	-5.34	16	0.334	218.3	0.83	2.21	False		0	Terpenoids		CC1=CC2=C(C(=O)[C@@H](C)C2)C(C)=C1CCO	True
+CNP0181367.1	-5.67	17	0.334	295.22	0.8	4.67	False		0	Terpenoids		CC1=CC=C([C@]2(C)CC/C(=C\Br)[C@@H]2C)C(O)=C1	True
+CNP0273065.2	-4.99	15	0.333	208.3	0.67	2.44	False		0	Terpenoids		C[C@H](O)[C@H]1C=C2C(C)(C)CC=C[C@@]2(C)O1	True
+CNP0276930.0	-6.66	20	0.333	274.32	0.88	2.9	False		0	Shikimates and Phenylpropanoids	Gigantol	COC1=CC(O)=CC(CCC2=CC=C(OC)C(O)=C2)=C1	True
+CNP0246782.0	-7.29	22	0.331	300.27	0.67	2.59	False		0	Shikimates and Phenylpropanoids	Diosmetin	COC1=CC=C(C2=CC(=O)C3=C(O)C=C(O)C=C3O2)C=C1O	True
+CNP0525213.0	-6.61	20	0.331	271.25	0.51	3.2	False		0	Shikimates and Phenylpropanoids	Pelargonidin	OC1=CC=C(C2=[O+]C3=CC(O)=CC(O)=C3C=C2O)C=C1	True
+CNP0312384.5	-4.95	15	0.33	204.36	0.58	4.75	False		0	Terpenoids	delta-Elemene	C=C[C@@]1(C)CCC(C(C)C)=C[C@@H]1C(=C)C	True
+CNP0513582.2	-6.58	20	0.329	281.35	0.83	1.88	False		0		4-[(2R)-2-[(1R,3S,5S)-3,5-dimethyl-2-oxocyclohexyl]-2-hydroxyethyl]-6-hydroxy-4,5-dihydro-3H-pyridin-2-one	C[C@H]1C[C@H](C)C(=O)[C@@H]([C@H](O)CC2CC(=O)N=C(O)C2)C1	True
+CNP0203449.1	-3.29	10	0.329	136.24	0.45	3.0	False		0	Terpenoids	(+)-alpha-Pinene	CC1=CC[C@@H]2C[C@H]1C2(C)C	True
+CNP0412522.1	-7.23	22	0.329	300.31	0.92	2.85	False		0	Shikimates and Phenylpropanoids		COC1=CC2=C(C=C1[C@@H]1COC3=CC(O)=CC=C3C1)OCO2	True
+CNP0232229.1	-5.25	16	0.328	222.33	0.67	2.42	False		0	Terpenoids	Rishitin	C=C(C)[C@@H]1CCC2=C(C1)[C@H](C)[C@@H](O)[C@H](O)C2	True
+CNP0198084.1	-4.91	15	0.327	200.24	0.56	1.99	False		0	Terpenoids		CC#CC#C/C=C1/C=C[C@@]2(CCCO2)O1	True
+CNP0273956.1	-3.6	11	0.327	152.24	0.52	2.4	False		0	Terpenoids	D-CAMPHOR	CC1(C)[C@@H]2CC[C@@]1(C)C(=O)C2	True
+CNP0290260.0	-6.51	20	0.326	268.27	0.78	3.17	False		0	Shikimates and Phenylpropanoids	Tectochrysin	COC1=CC(O)=C2C(=O)C=C(C3=CC=CC=C3)OC2=C1	True
+CNP0163749.1	-6.85	21	0.326	286.28	0.89	2.81	False		0	Shikimates and Phenylpropanoids	Sakuranetin	COC1=CC(O)=C2C(=O)C[C@@H](C3=CC=C(O)C=C3)OC2=C1	True
+CNP0206675.0	-5.87	18	0.326	244.25	0.67	2.54	False		0	Shikimates and Phenylpropanoids	Graveolone	CC1(C)CC(=O)C2=CC3=C(C=C2O1)OC(=O)C=C3	True
+CNP0247845.1	-5.52	17	0.325	238.37	0.67	3.37	False		0	Terpenoids		C=C[C@](C)(O)CC/C=C(\C)C/C=C/C(C)(C)O	True
+CNP0363286.1	-7.12	22	0.324	300.31	0.92	3.02	False		0	Shikimates and Phenylpropanoids	4-Hydroxyhomopterocarpin	COC1=CC=C2C(=C1)O[C@H]1C3=CC=C(OC)C(O)=C3OC[C@@H]21	True
+CNP0587378.0	-5.17	16	0.323	222.33	0.67	2.28	False		0	Terpenoids	59545-99-2	C=C(C)C1CCC2=CC(O)C(O)C(C)C2C1	True
+CNP0317214.1	-5.17	16	0.323	225.29	0.8	1.61	False		0	Alkaloids	[(2R)-2-(3,4-dimethoxyphenyl)-2-methoxyethyl](methyl)amine	CNC[C@H](OC)C1=CC=C(OC)C(OC)=C1	True
+CNP0122345.1	-7.42	23	0.323	316.31	0.89	2.72	False		0	Shikimates and Phenylpropanoids		COC1=CC(O)=C2C(=C1)O[C@H]1C3=CC(OC)=C(O)C=C3OC[C@@H]21	True
+CNP0217911.2	-7.09	22	0.322	300.31	0.92	2.42	False		0	Shikimates and Phenylpropanoids	(-)-Variabilin	COC1=CC=C2C(=C1)OC[C@@]1(O)C3=CC=C(OC)C=C3O[C@@H]21	True
+CNP0195444.1	-5.15	16	0.322	218.3	0.83	2.21	False		0	Terpenoids	Pterosin B	CC1=CC2=C(C(=O)[C@H](C)C2)C(C)=C1CCO	True
+CNP0426233.2	-7.39	23	0.321	316.31	0.89	2.72	False		0	Shikimates and Phenylpropanoids	(6aR,11aR)-3,9-dimethoxy-6a,11a-dihydro-6H-[1]benzofuro[3,2-c]chromene-2,10-diol	COC1=CC2=C(C=C1O)[C@@H]1OC3=C(C=CC(OC)=C3O)[C@@H]1CO2	True
+CNP0143264.1	-6.41	20	0.321	272.26	0.74	1.78	False		0	Shikimates and Phenylpropanoids	Garbanzol	O=C1C2=CC=C(O)C=C2O[C@H](C2=CC=C(O)C=C2)[C@H]1O	True
+CNP0241588.1	-5.11	16	0.319	222.37	0.63	4.4	False		0	Terpenoids	1119-38-6	C=C[C@@](C)(O)CC/C=C(\C)CCC=C(C)C	True
+CNP0172675.0	-7.02	22	0.319	300.27	0.67	2.59	False		0	Shikimates and Phenylpropanoids	2'-Hydroxybiochanin A	COC1=CC=C(C2=COC3=CC(O)=CC(O)=C3C2=O)C(O)=C1	True
+CNP0228051.1	-7.29	23	0.317	314.29	0.87	2.74	False		0	Shikimates and Phenylpropanoids	(1R,12R)-17-methoxy-5,7,11,19-tetraoxapentacyclo[10.8.0.02,10.04,8.013,18]icosa-2,4(8),9,13(18),14,16-hexaen-16-ol	COC1=C(O)C=CC2=C1OC[C@H]1C3=CC4=C(C=C3O[C@@H]21)OCO4	True
+CNP0115006.1	-5.71	18	0.317	250.29	0.74	1.19	False		0	Terpenoids		CC1=CC2=C(C(=O)[C@@H](C)[C@@H]2O)C(C)=C1[C@@H](O)CO	True
+CNP0146433.1	-6.97	22	0.317	302.33	0.91	2.83	False		0	Shikimates and Phenylpropanoids	(R)-Isomucronulatol	COC1=CC=C([C@@H]2COC3=CC(O)=CC=C3C2)C(O)=C1OC	True
+CNP0280514.2	-5.66	18	0.314	248.28	0.84	1.8	False		0		2-[(1S,2S)-1-hydroxy-2,4,6-trimethyl-3-oxo-1,2-dihydroinden-5-yl]acetic acid	CC1=CC2=C(C(=O)[C@@H](C)[C@@H]2O)C(C)=C1CC(=O)O	True
+CNP0137624.0	-6.26	20	0.313	274.32	0.88	2.9	False		0	Shikimates and Phenylpropanoids	83088-28-2	COC1=CC(O)=CC(CCC2=CC=C(O)C(OC)=C2)=C1	True
+CNP0314929.0	-5.64	18	0.313	236.23	0.51	2.14	False		0	Alkaloids	11-Hydroxycanthin-6-one	O=C1C=CC2=C3C(=CC=N2)C2=C(O)C=CC=C2N13	True
+CNP0513582.1	-6.26	20	0.313	281.35	0.83	1.88	False		0		4-[(2S)-2-[(1R,3R,5R)-3,5-dimethyl-2-oxocyclohexyl]-2-hydroxyethyl]-6-hydroxy-4,5-dihydro-3H-pyridin-2-one	C[C@@H]1C[C@@H](C)C(=O)[C@@H]([C@@H](O)CC2CC(=O)N=C(O)C2)C1	True
+CNP0223782.0	-6.88	22	0.313	300.27	0.67	2.59	False		0	Shikimates and Phenylpropanoids	Chrysoeriol	COC1=CC(C2=CC(=O)C3=C(O)C=C(O)C=C3O2)=CC=C1O	True
+CNP0145919.0	-6.58	21	0.313	284.27	0.76	2.88	False		0	Shikimates and Phenylpropanoids	Genkwanin	COC1=CC(O)=C2C(=O)C=C(C3=CC=C(O)C=C3)OC2=C1	True
+CNP0260114.1	-3.75	12	0.312	170.25	0.61	1.88	False		0	Terpenoids	Linaloolpyran oxide d	C=C[C@@]1(C)CC[C@@H](O)C(C)(C)O1	True
+CNP0270338.2	-5.58	18	0.31	252.35	0.84	2.36	False		0	Terpenoids	213746-16-8	CC(=O)CC[C@@H]1[C@H]2C[C@@H](C(C)(C)O)C(=O)C[C@@]12C	True
+CNP0129409.0	-6.8	22	0.309	300.27	0.61	0.72	False		0	Alkaloids	Chandrananimycin D	O=C(CO)NC1=CC2=NC3=CC(CO)=CC=C3OC2=CC1=O	True
+CNP0195484.0	-5.88	19	0.309	257.38	0.72	4.05	False		0	Alkaloids	Schinifoline	CCCCCCCC1=CC(=O)C2=CC=CC=C2N1C	True
+CNP0214964.4	-5.25	17	0.309	234.29	0.82	1.7	False		0	Terpenoids	Pterosin C	CC1=CC2=C(C(=O)[C@@H](C)[C@@H]2O)C(C)=C1CCO	True
+CNP0218028.2	-6.17	20	0.308	272.26	0.74	2.51	False		0	Shikimates and Phenylpropanoids	(R)-naringenin	O=C1C[C@H](C2=CC=C(O)C=C2)OC2=CC(O)=CC(O)=C12	True
+CNP0400723.0	-7.05	23	0.307	314.29	0.77	2.89	False		0	Shikimates and Phenylpropanoids	Pectolinarigenin	COC1=CC=C(C2=CC(=O)C3=C(O)C(OC)=C(O)C=C3O2)C=C1	True
+CNP0145780.0	-7.34	24	0.306	321.38	0.71	4.25	False		0	Alkaloids		CC(C)=CCC1=CC(C(=O)N2C=C(O)C3=CC=CC=C32)=CC=C1O	True
+CNP0122084.1	-5.18	17	0.305	238.37	0.74	3.06	False		0	Terpenoids		CC(C)=CCC[C@H](C)[C@@H]1C=C[C@@](C)(O)[C@@H](O)C1	True
+CNP0509703.1	-5.49	18	0.305	254.37	0.67	1.72	False		0	Terpenoids	(3R,5R,6R,8S,10R)-10-(hydroxymethyl)-3-(3-hydroxyprop-1-en-2-yl)-6-methylspiro[4.5]decan-8-ol	C=C(CO)[C@@H]1CC[C@]2(C1)[C@H](CO)C[C@@H](O)C[C@H]2C	True
+CNP0165245.1	-5.77	19	0.304	262.3	0.92	3.22	False		0	Terpenoids	10 Hydroxyipomeabisfuran	C[C@@]1(CC2=CC(CO)=CO2)CC[C@H](C2=COC=C2)O1	True
+CNP0226344.1	-7.88	26	0.303	352.39	0.89	3.94	False		0	Shikimates and Phenylpropanoids		COC1=CC2=C(C=CC(C)(C)O2)C=C1[C@H]1COC2=CC(O)=CC=C2C1=O	True
+CNP0118395.0	-5.75	19	0.303	268.26	0.62	1.55	False		0	Shikimates and Phenylpropanoids		COC1=CC(C(=O)CCOC(C)=O)=CC(O)=C1OC	True
+CNP0231468.0	-6.97	23	0.303	312.32	0.8	3.49	False		0	Shikimates and Phenylpropanoids	8-Demethyleucalyptin	COC1=CC=C(C2=CC(=O)C3=C(O)C(C)=C(OC)C=C3O2)C=C1	True
+CNP0106089.0	-5.76	19	0.303	256.3	0.85	3.58	False		0	Shikimates and Phenylpropanoids	4-[2-(3,5-dimethoxyphenyl)ethenyl]phenol	COC1=CC(C=CC2=CC=C(O)C=C2)=CC(OC)=C1	True
+CNP0280514.1	-5.46	18	0.303	248.28	0.84	1.8	False		0			CC1=CC2=C(C(=O)[C@@H](C)[C@H]2O)C(C)=C1CC(=O)O	True
+CNP0128281.2	-4.53	15	0.302	204.36	0.57	4.87	False		0	Terpenoids	(+)-delta-selinene	CC1=C2C=C(C(C)C)CC[C@@]2(C)CCC1	True
+CNP0209227.1	-5.73	19	0.302	258.36	0.6	3.99	False		0	Terpenoids		C=C1CC[C@@](C)(C2=CC=C(COC(C)=O)C=C2)[C@H]1C	True
+CNP0254221.2	-4.84	16	0.302	236.74	0.72	3.46	False		0	Terpenoids	PTEROSINF	CC1=CC2=C(C(=O)[C@H](C)C2)C(C)=C1CCCl	True
+CNP0253931.1	-5.4	18	0.3	242.36	0.73	4.06	False		0	Terpenoids		C=C1CC[C@@](C)(C2=CC=C(CC(C)=O)C=C2)[C@H]1C	True

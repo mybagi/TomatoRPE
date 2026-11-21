@@ -1,0 +1,8 @@
+system	source_log	extraction	integrator	dt	nsteps	nstxout-compressed	coulombtype	rcoulomb	rvdw	tcoupl	pcoupl	pcoupltype	tau-p	ref-t	tau-t	protein_forcefield
+CNP0542861.1	\\?\J:\..\tomato\data\md\complex_CNP0542861.1\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	amber99sb-ildn
+CNP0511659.1	\\?\J:\..\tomato\data\md\complex_CNP0511659.1\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	amber99sb-ildn
+CNP0184442.0	\\?\J:\..\tomato\data\md\complex_CNP0184442.0\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	amber99sb-ildn
+CNP0196064.0	\\?\J:\..\tomato\data\md\complex_CNP0196064.0\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	amber99sb-ildn
+CNP0211069.0	\\?\J:\..\tomato\data\md\complex_CNP0211069.0\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	
+substrate	\\?\J:\..\tomato\data\md\complex_substrate\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	
+apo	\\?\J:\..\tomato\data\md\complex_apo\md.log	first 420 lines	md	0.004	25000000	25000	PME	1	1	V-rescale	C-rescale	Isotropic	2	300         300	0.1         0.1	

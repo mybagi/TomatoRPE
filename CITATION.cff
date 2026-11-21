@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: Cite this software when using the analysis code.
+type: software
+title: Tomato drought response and RPE ligand screening
+authors:
+  - given-names: Mingyu
+    family-names: Bian
+  - given-names: Yiquan
+    family-names: Wang
+  - given-names: Kai
+    family-names: Wei
+repository-code: https://github.com/mybagi/tomato-drought-rpe-scopoletin
