@@ -10,12 +10,11 @@ import MDAnalysis as mda
 import numpy as np
 from MDAnalysis.lib.distances import distance_array
 
-from reproduce import read_rows
+from download_trajectory import EPIMER_STEM
+from prepare_data import read_rows, reference_directory
 
 
-DATA_DIR = Path(__file__).resolve().parents[1] / "assets"
 DISTANCE_COLUMN = "fixed_pocket_heavy_minimum_image_distance_nm"
-EPIMER_STEM = "D-Ru5P_C4-epimer"
 DISTANCE_ATOL_NM = 1e-6
 GROMACS_DISTANCE_ATOL_NM = 5e-6
 
@@ -103,15 +102,16 @@ def verify(data, system, topology, trajectory):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", type=Path, default=DATA_DIR, help="Directory of analysis tables")
+    parser.add_argument("--data", type=Path, help="Directory of extracted reference tables")
     location = parser.add_mutually_exclusive_group(required=True)
     location.add_argument("--trajectory-dir", type=Path, help="Directory of downloaded Zenodo files")
     location.add_argument("--system-dir", type=Path, help="Directory containing md.tpr and md.xtc")
     parser.add_argument("--system", help="System identifier used in the reference tables")
     args = parser.parse_args()
-    systems = sorted(path.stem.removeprefix("md_metrics_") for path in (args.data / "md_observables").glob("md_metrics_*.tsv"))
+    data = reference_directory(args.data)
+    systems = sorted(path.stem.removeprefix("md_metrics_") for path in (data / "md_observables").glob("md_metrics_*.tsv"))
     system, topology, trajectory = trajectory_files(args, parser, systems)
-    print(json.dumps(verify(args.data, system, topology, trajectory), indent=2, allow_nan=False))
+    print(json.dumps(verify(data, system, topology, trajectory), indent=2, allow_nan=False))
 
 
 if __name__ == "__main__":

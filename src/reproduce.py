@@ -2,31 +2,12 @@
 from __future__ import annotations
 
 import argparse
-import csv
-import hashlib
 import json
-import math
 import statistics
 from fractions import Fraction
 from pathlib import Path
 
-
-def read_rows(path, delimiter="\t"):
-    with path.open(encoding="utf-8-sig", newline="") as handle:
-        return list(csv.DictReader(handle, delimiter=delimiter))
-
-
-def verify_files(data):
-    manifest = read_rows(data / "manifest.tsv")
-    for entry in manifest:
-        path = (data / entry["path"]).resolve()
-        if not path.is_relative_to(data.resolve()):
-            raise ValueError(f"Invalid manifest path: {entry['path']}")
-        with path.open("rb") as handle:
-            digest = hashlib.file_digest(handle, "sha256").hexdigest()
-        if path.stat().st_size != int(entry["bytes"]) or digest != entry["sha256"]:
-            raise ValueError(f"Archive integrity failure: {entry['path']}")
-    return len(manifest)
+from prepare_data import read_rows, reference_directory, verify_files
 
 
 def mean_descending_ranks(scores):
@@ -157,16 +138,17 @@ def verify_geo_workbook(workbook, tables):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", type=Path, default=Path(__file__).resolve().parents[1] / "assets", help="Directory of analysis tables")
+    parser.add_argument("--data", type=Path, help="Directory of extracted reference tables")
     parser.add_argument("--geo-workbook", type=Path, help="Optional GSE156402 supplementary workbook from GEO")
     args = parser.parse_args()
-    tables = args.data / "manuscript_tables"
+    data = reference_directory(args.data)
+    tables = data / "manuscript_tables"
     output = {
-        "verified_files": verify_files(args.data),
+        "verified_files": verify_files(data),
         "transcriptomics": transcriptomics(tables),
         "borda": borda_ranking(tables),
-        "docking": docking(args.data, tables),
-        "molecular_dynamics": md_summaries(args.data),
+        "docking": docking(data, tables),
+        "molecular_dynamics": md_summaries(data),
     }
     if args.geo_workbook:
         output["geo_recomputed_paired_loci"] = verify_geo_workbook(args.geo_workbook, tables)

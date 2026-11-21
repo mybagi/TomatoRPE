@@ -5,22 +5,19 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
-import os
+import json
 from pathlib import Path
-import shutil
-import subprocess
 import tempfile
 from urllib.parse import quote
+
+from prepare_data import fetch
 
 
 ASSETS = Path(__file__).resolve().parents[1] / "assets"
 RECORD_URL = "https://zenodo.org/records/24425383"
-FILE_COLUMNS = ("initial_structure", "run_input", "trajectory")
-CURL = (
-    "curl", "--fail", "--silent", "--show-error", "--location", "--proto", "=https",
-    "--proto-redir", "=https", "--connect-timeout", "15", "--retry", "2",
-)
-
+RECORD_API = "https://zenodo.org/api/records/24425383"
+RECORD_DOI = "10.5281/zenodo.24425383"
+EPIMER_STEM = "D-Ru5P_C4-epimer"
 
 def read_index(filename, key):
     with (ASSETS / filename).open(encoding="utf-8", newline="") as handle:
@@ -35,35 +32,26 @@ def matches_record(path, size, checksum):
     return digest == checksum
 
 
-def fetch(url, destination):
-    if os.name == "nt":
-        shell = shutil.which("pwsh") or shutil.which("powershell")
-        if shell is None:
-            raise RuntimeError("PowerShell is required for automatic downloads on Windows")
-        env = {
-            **os.environ,
-            "TOMATORPE_DOWNLOAD_URL": url,
-            "TOMATORPE_DOWNLOAD_PATH": str(destination),
-        }
-        command = [
-            shell, "-NoProfile", "-NonInteractive", "-Command",
-            "$ProgressPreference='SilentlyContinue'; "
-            "Invoke-WebRequest -UseBasicParsing -ErrorAction Stop "
-            "-Uri $env:TOMATORPE_DOWNLOAD_URL -OutFile $env:TOMATORPE_DOWNLOAD_PATH",
-        ]
-        subprocess.run(command, env=env, check=True)
-    else:
-        subprocess.run(
-            [*CURL, "--speed-time", "45", "--speed-limit", "512", "--output", str(destination), url],
-            check=True,
-        )
+def published_checksums():
+    with tempfile.NamedTemporaryFile(delete=False) as stream:
+        path = Path(stream.name)
+    try:
+        fetch(RECORD_API, path)
+        record = json.loads(path.read_text(encoding="utf-8"))
+    finally:
+        path.unlink(missing_ok=True)
+    if record["doi"] != RECORD_DOI:
+        raise ValueError("Zenodo returned a different record")
+    return {entry["key"]: entry for entry in record["files"]}
 
 
 def download_file(name, entry, output_dir):
     if Path(name).name != name or "/" in name or "\\" in name:
         raise ValueError(f"Invalid deposited filename {name!r}")
-    size = int(entry["bytes"])
-    checksum = entry["md5"]
+    size = int(entry["size"])
+    method, checksum = entry["checksum"].split(":", maxsplit=1)
+    if method != "md5":
+        raise ValueError("The published checksum format changed")
     destination = output_dir / name
     if destination.exists():
         if matches_record(destination, size, checksum):
@@ -86,13 +74,14 @@ def download_file(name, entry, output_dir):
 
 
 def main():
-    catalog = read_index("trajectory_systems.tsv", "system")
+    catalog = read_index("systems.tsv", "system")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--system", required=True, choices=sorted(catalog))
     parser.add_argument("--output", required=True, type=Path, help="Directory for the three downloaded files")
     args = parser.parse_args()
-    names = [catalog[args.system][column] for column in FILE_COLUMNS]
-    published = read_index("trajectory_files.tsv", "file")
+    stem = EPIMER_STEM if args.system == "substrate" else args.system
+    names = (f"RPE_{stem}_0ns.gro", f"RPE_{stem}_100ns.tpr", f"RPE_{stem}_100ns.xtc")
+    published = published_checksums()
     args.output.mkdir(parents=True, exist_ok=True)
     for name in names:
         print(download_file(name, published[name], args.output), flush=True)

@@ -5,3 +5,4 @@ __pycache__/
 *.tpr
 *.edr
 *.cpt
+.reference-data/

@@ -1,0 +1,14 @@
+system	ligand_or_state	catalytic_metal	replicate
+apo	Unliganded RPE	None	
+CNP0184442.0	Scopoletin	None	
+CNP0196064.0	Indole-3-butyric acid	None	
+CNP0211069.0	Bergapten	None	
+CNP0511659.1	Indolmycin enantiomer	None	
+CNP0542861.1	CNP0542861.1	None	
+substrate	C4 epimer of D-ribulose 5-phosphate	None	
+native_D-Ru5P_no-Zn_rep1	Native D-ribulose 5-phosphate	None	1
+native_D-Ru5P_no-Zn_rep2	Native D-ribulose 5-phosphate	None	2
+native_D-Ru5P_no-Zn_rep3	Native D-ribulose 5-phosphate	None	3
+native_D-Ru5P_with-Zn_rep1	Native D-ribulose 5-phosphate	Zinc	1
+native_D-Ru5P_with-Zn_rep2	Native D-ribulose 5-phosphate	Zinc	2
+native_D-Ru5P_with-Zn_rep3	Native D-ribulose 5-phosphate	Zinc	3
